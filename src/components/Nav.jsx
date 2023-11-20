@@ -20,7 +20,7 @@ const Nav = () => {
               {
                 navLinks.map((item)=> (
                   <li key={item.label}>
-                    <a href={item.href} className='font-montserrat leading-normal text-slate-gray'>{item.label}</a>
+                    <a href={item.href} className='font-montserrat leading-normal text-slate-gray hover:text-black'>{item.label}</a>
                   </li>
                 ))
               }
