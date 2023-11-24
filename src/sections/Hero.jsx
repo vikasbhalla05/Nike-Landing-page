@@ -24,7 +24,7 @@ const Hero = () => {
         Discover stylish Nike arrivals, quality comfort, and innovation for your active life.
         </p>
 
-        <Button label="New Arrivals" iconUrl={arrowRight}/>
+        <Button label="New Arrivals" iconUrl={arrowRight} type="red"/>
 
         {/* stats */}
         <div className='flex items-start justify-start flex-wrap w-full mt-20 gap-16'>

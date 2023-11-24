@@ -24,7 +24,7 @@ const SuperQuality = () => {
         </p>
 
         <div className='mt-11'>
-          <Button label="View Details" iconUrl={arrowRight}/>
+          <Button label="View Details" iconUrl={arrowRight} type="red"/>
         </div>
         
       </div>
